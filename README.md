@@ -10,14 +10,14 @@ The code contains a baseline model (LSTM) and an RNN with Bidirectional layer an
 Finally, after comparing different implemented models, we have observed:
 
 1.	In Natural Language Processing problems, the Preprocessing is one of the most important parts of solution.
-2.	
-3.	In feature extraction, Word Embedding helps the model to achieve higher accuracies.
-4.	
-5.	Generative methods, such as BI-LSTM, by allowing the model to have access to past and future state simultaneously, improve the model efficiency.
-6.	
-7.	GloVe is an unsupervised algorithm that finds words with similar meaning. This method outperforms other embedding techniques and saves time and computational power.
-8.	
-9.	In this problem and our model, early stopping regularization method is not suggested and does not improve the model. Notice that it changes in different models and problems.
+
+2.	In feature extraction, Word Embedding helps the model to achieve higher accuracies.
+	
+2.	Generative methods, such as BI-LSTM, by allowing the model to have access to past and future state simultaneously, improve the model efficiency.
+	
+4.	GloVe is an unsupervised algorithm that finds words with similar meaning. This method outperforms other embedding techniques and saves time and computational power.
+	
+5.	In this problem and our model, early stopping regularization method is not suggested and does not improve the model. Notice that it changes in different models and problems.
 
 We suggest applying TF-IDF preprocessing method and also fine tuning the model with BERT (Bidirectional Encoder Representations from Transformers) on this dataset. Also, the regularization methods can be improved, and they can help to obtain a better model. 
 
